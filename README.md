@@ -1,7 +1,7 @@
 # CarlsStoreSln
 Adam Freemans Sports Store Demo
 
-##Created Project
+## Created Project
 
     dotnet new globaljson --sdk-version 3.1.401 --output CarlsStoreSln/OutdoorWorld
     dotnet new web --no-https --output CarlsStoreSln/OutdoorWorld --framework netcoreapp3.1
@@ -11,5 +11,6 @@ Adam Freemans Sports Store Demo
     dotnet sln CarlsStoreSln add CarlsStoreSln/OutdoorWorld.Tests
     dotnet add CarlsStoreSln/OutdoorWorld.Tests reference CarlsStoreSln/OutdoorWorld
 
-# ScreenShots
-[Screen Shot 1] (https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/SportStoreImage1.PNG)
+## ScreenShots
+ScreenShot 1  
+![ScreenShot 1](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/SportStoreImage1.PNG)
