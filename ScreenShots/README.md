@@ -1,1 +1,1 @@
-# This folder will hold screenshots of progress
+This folder will hold screenshots of progress
