@@ -12,11 +12,19 @@ Adam Freemans Sports Store Demo
     dotnet add CarlsStoreSln/OutdoorWorld.Tests reference CarlsStoreSln/OutdoorWorld
 
 ## ScreenShots
+### Chapter 7
 
 ![ScreenShot 1](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/SportStoreImage1.PNG)
 ![ScreenShot 2](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/SportStoreImage2.PNG)
 ![ScreenShot 3](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/SportStoreImage3.PNG)
 ![ScreenShot 4](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/SportStoreImage4.PNG)
+
+### Chapter 8
+
+![ScreenShot 8-5](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
+![ScreenShot 8-10](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
+![ScreenShot 8-11](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
+![ScreenShot TE8](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
 
 ## Entity Framework Questions
 
