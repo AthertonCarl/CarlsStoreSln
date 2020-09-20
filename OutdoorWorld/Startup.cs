@@ -32,6 +32,7 @@ namespace OutdoorWorld
 					Configuration["ConnectionStrings:OutdoorWorldConnection"]);
 			});
 			services.AddScoped<IStoreRepository, EFStoreRepository>();
+			services.AddRazorPages();
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -56,6 +57,7 @@ namespace OutdoorWorld
 					"Products/Page{productPage}",
 					new { Controller = "Home", action = "Index", productPage = 1 });
 				endpoints.MapDefaultControllerRoute();
+				endpoints.MapRazorPages();
 			});
 			SeedData.EnsurePopulated(app);
 		}
