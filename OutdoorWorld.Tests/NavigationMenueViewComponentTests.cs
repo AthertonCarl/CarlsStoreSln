@@ -39,6 +39,7 @@ namespace OutdoorWorld.Tests
             }, results));
         }
 
+        [Fact]
         public void Indicates_Selected_Category()
         {
             // Arrange

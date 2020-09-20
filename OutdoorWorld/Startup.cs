@@ -33,6 +33,8 @@ namespace OutdoorWorld
 			});
 			services.AddScoped<IStoreRepository, EFStoreRepository>();
 			services.AddRazorPages();
+			services.AddDistributedMemoryCache();
+			services.AddSession();
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -40,6 +42,7 @@ namespace OutdoorWorld
 			app.UseDeveloperExceptionPage();
 			app.UseStatusCodePages();
 			app.UseStaticFiles();
+			app.UseSession();
 			app.UseRouting();
 			app.UseEndpoints(endpoints =>
 			{
