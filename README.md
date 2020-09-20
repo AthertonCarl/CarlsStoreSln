@@ -21,10 +21,10 @@ Adam Freemans Sports Store Demo
 
 ### Chapter 8
 
-![ScreenShot 8-5](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
-![ScreenShot 8-10](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
-![ScreenShot 8-11](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
-![ScreenShot TE8](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots)
+![ScreenShot 8-5](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot8-5)
+![ScreenShot 8-10](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot8-10)
+![ScreenShot 8-11](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot8-11)
+![ScreenShot TE8](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShotTE8)
 
 ## Entity Framework Questions
 
