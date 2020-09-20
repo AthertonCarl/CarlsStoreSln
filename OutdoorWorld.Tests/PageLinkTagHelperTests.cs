@@ -25,7 +25,9 @@ namespace OutdoorWorld.Tests
                 .Returns("Test/Page3");
 
             var urlHelperFactory = new Mock<IUrlHelperFactory>();
-            urlHelperFactory.Setup(f => f.GetUrlHelper(It.IsAny<ActionContext>())).Returns(urlHelper.Object);
+            urlHelperFactory.Setup(f => 
+                f.GetUrlHelper(It.IsAny<ActionContext>()))
+                .Returns(urlHelper.Object);
 
             PageLinkTagHelper helper =
                 new PageLinkTagHelper(urlHelperFactory.Object)
