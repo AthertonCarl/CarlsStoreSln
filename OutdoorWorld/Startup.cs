@@ -32,6 +32,7 @@ namespace OutdoorWorld
 					Configuration["ConnectionStrings:OutdoorWorldConnection"]);
 			});
 			services.AddScoped<IStoreRepository, EFStoreRepository>();
+			services.AddScoped<IOrderRepository, EFOrderRepository>();
 			services.AddRazorPages();
 			services.AddDistributedMemoryCache();
 			services.AddSession();
