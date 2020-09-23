@@ -2,7 +2,7 @@
 using System.Linq;
 using OutdoorWorld.Models;
 
-namespace OutdoorWorld.Componets
+namespace OutdoorWorld.Components
 {
     public class NavigationMenuViewComponent : ViewComponent
     {
