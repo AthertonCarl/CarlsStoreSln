@@ -26,6 +26,12 @@ Adam Freemans Sports Store Demo
 ![ScreenShot 8-11](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot8-11.PNG)
 ![ScreenShot TE8](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShotTE8.PNG)
 
+### Chapter 9
+
+![ScreenShot 9-4](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot9-4.PNG)
+![ScreenShot 9-5](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot9-5.PNG)
+![ScreenShot 9-6](https://github.com/AthertonCarl/CarlsStoreSln/blob/master/ScreenShots/ScreenShot9-6.PNG)
+
 ## Entity Framework Questions
 
 What is Entity Framework?  
