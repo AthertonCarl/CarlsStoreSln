@@ -2,7 +2,7 @@
 
 namespace OutdoorWorld.Migrations
 {
-    public partial class Orders : Migration
+    public partial class Order : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

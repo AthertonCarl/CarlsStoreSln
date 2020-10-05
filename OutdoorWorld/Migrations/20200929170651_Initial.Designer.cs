@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OutdoorWorld.Models;
 
 namespace OutdoorWorld.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-    partial class StoreDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200929170651_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,7 +28,7 @@ namespace OutdoorWorld.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("OrderID")
+                    b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<long?>("ProductID")
@@ -37,7 +39,7 @@ namespace OutdoorWorld.Migrations
 
                     b.HasKey("CartLineId");
 
-                    b.HasIndex("OrderID");
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProductID");
 
@@ -46,7 +48,7 @@ namespace OutdoorWorld.Migrations
 
             modelBuilder.Entity("OutdoorWorld.Models.Order", b =>
                 {
-                    b.Property<int>("OrderID")
+                    b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -76,9 +78,6 @@ namespace OutdoorWorld.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("Shipped")
-                        .HasColumnType("bit");
-
                     b.Property<string>("State")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -86,7 +85,7 @@ namespace OutdoorWorld.Migrations
                     b.Property<string>("Zip")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("OrderID");
+                    b.HasKey("OrderId");
 
                     b.ToTable("Orders");
                 });
@@ -119,7 +118,7 @@ namespace OutdoorWorld.Migrations
                 {
                     b.HasOne("OutdoorWorld.Models.Order", null)
                         .WithMany("Lines")
-                        .HasForeignKey("OrderID");
+                        .HasForeignKey("OrderId");
 
                     b.HasOne("OutdoorWorld.Models.Product", "Product")
                         .WithMany()

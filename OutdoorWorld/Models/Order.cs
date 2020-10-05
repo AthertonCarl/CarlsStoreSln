@@ -8,7 +8,8 @@ namespace OutdoorWorld.Models
     public class Order
     {
         [BindNever]
-        public int OrderId { get; set; }
+        public int OrderID { get; set; }
+        
         [BindNever]
         public ICollection<CartLine> Lines { get; set; }
 
@@ -32,5 +33,8 @@ namespace OutdoorWorld.Models
         public string Country { get; set; }
 
         public bool GiftWrap { get; set; }
+
+        [BindNever]
+        public bool Shipped { get; set; }
     }
 }
