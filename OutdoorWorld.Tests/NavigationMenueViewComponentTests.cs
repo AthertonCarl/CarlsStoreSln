@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Moq;
-using OutdoorWorld.Componets;
+using OutdoorWorld.Components;
 using OutdoorWorld.Models;
 using Xunit;
 
